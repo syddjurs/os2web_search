@@ -13,7 +13,7 @@ function os2web_search_context_default_contexts() {
   $context = new stdClass();
   $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
   $context->api_version = 3;
-  $context->name = 'search';
+  $context->name = 'os2web_search_context';
   $context->description = '';
   $context->tag = '';
   $context->conditions = array(
@@ -51,7 +51,7 @@ function os2web_search_context_default_contexts() {
     ),
   );
   $context->condition_mode = 0;
-  $export['search'] = $context;
+  $export['os2web_search_context'] = $context;
 
   return $export;
 }

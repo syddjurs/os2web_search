@@ -1,6 +1,6 @@
 name = OS2Web Search
 core = 7.x
-package = Backend/config 
+package = Backend/config
 php = 5.2.4
 version = 7.x-1.10
 project = OS2Web
@@ -14,7 +14,7 @@ dependencies[] = taxonomy
 features[apachesolr_environment][] = solr
 features[apachesolr_search_page][] = core_search
 features[apachesolr_search_page][] = taxonomy_search
-features[context][] = search
+features[context][] = os2web_search_context
 features[ctools][] = apachesolr:apachesolr_environments:1
 features[ctools][] = apachesolr_search:apachesolr_search_defaults:3
 features[ctools][] = context:context:3
