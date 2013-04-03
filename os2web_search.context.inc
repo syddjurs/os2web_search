@@ -47,7 +47,7 @@ function os2web_search_context_default_contexts() {
       ),
     ),
     'delta' => array(
-      'delta_template' => 'hide_second_sidebar',
+      'delta_template' => 'os2web_frontend_hide_sec_sidebar',
     ),
   );
   $context->condition_mode = 0;

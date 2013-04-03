@@ -12,16 +12,16 @@ function os2web_search_apachesolr_environments() {
 
   $environment = new stdClass();
   $environment->api_version = 1;
-  $environment->env_id = 'solr';
-  $environment->name = 'localhost server';
+  $environment->env_id = 'os2web_search_enviroment';
+  $environment->name = 'OS2web_search_enviroment';
   $environment->url = 'http://localhost:8983/solr';
   $environment->service_class = '';
   $environment->conf = array(
-    'apachesolr_read_only' => '1',
+    'apachesolr_read_only' => '0',
     'apachesolr_search_facet_pages' => '',
-    'apachesolr_search_show_facets' => 0,
   );
-  $export['solr'] = $environment;
+  $environment->index_bundles = array();
+  $export['os2web_search_enviroment'] = $environment;
 
   return $export;
 }
