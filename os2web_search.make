@@ -24,7 +24,7 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.2"
 
 projects[apachesolr][subdir] = "contrib"
-projects[apachesolr][version] = "1.1
+projects[apachesolr][version] = "1.1"
 
 projects[facetapi][subdir] = "contrib"
 projects[facetapi][version] = "1.3"
