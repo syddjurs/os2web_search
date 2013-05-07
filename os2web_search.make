@@ -26,7 +26,7 @@ projects[strongarm][version] = "2.0"
 ; Basic
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.2"
+projects[ctools][version] = "1.3"
 
 projects[apachesolr][subdir] = "contrib"
 projects[apachesolr][version] = "1.1"
