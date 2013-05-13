@@ -17,10 +17,56 @@ function os2web_search_apachesolr_environments() {
   $environment->url = 'http://localhost:8983/solr';
   $environment->service_class = '';
   $environment->conf = array(
+    'apachesolr_index_last' => array(
+      'comment' => array(
+        'last_changed' => 0,
+        'last_entity_id' => 0,
+      ),
+      'feedback' => array(
+        'last_changed' => 0,
+        'last_entity_id' => 0,
+      ),
+      'fieldable_panels_pane' => array(
+        'last_changed' => 0,
+        'last_entity_id' => 0,
+      ),
+      'node' => array(
+        'last_changed' => 0,
+        'last_entity_id' => 0,
+      ),
+      'file' => array(
+        'last_changed' => 0,
+        'last_entity_id' => 0,
+      ),
+      'taxonomy_term' => array(
+        'last_changed' => 0,
+        'last_entity_id' => 0,
+      ),
+      'taxonomy_vocabulary' => array(
+        'last_changed' => 0,
+        'last_entity_id' => 0,
+      ),
+      'user' => array(
+        'last_changed' => 0,
+        'last_entity_id' => 0,
+      ),
+      'rules_config' => array(
+        'last_changed' => 0,
+        'last_entity_id' => 0,
+      ),
+    ),
+    'apachesolr_index_updated' => 1367496384,
+    'apachesolr_last_optimize' => 1367496384,
     'apachesolr_read_only' => '0',
     'apachesolr_search_facet_pages' => '',
   );
-  $environment->index_bundles = array();
+  $environment->index_bundles = array(
+    'node' => array(
+      0 => 'menu_page',
+      1 => 'os2web_hearings_hearing',
+      2 => 'os2web_kulturnaut_knactivity',
+    ),
+  );
   $export['os2web_search_enviroment'] = $environment;
 
   return $export;
