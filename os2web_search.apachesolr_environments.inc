@@ -63,8 +63,10 @@ function os2web_search_apachesolr_environments() {
   $environment->index_bundles = array(
     'node' => array(
       0 => 'menu_page',
-      1 => 'os2web_hearings_hearing',
-      2 => 'os2web_kulturnaut_knactivity',
+      1 => 'os2web_cp_service_cp_document',
+      2 => 'os2web_hearings_hearing',
+      3 => 'os2web_kulturnaut_knactivity',
+      4 => 'os2web_ofir_job',
     ),
   );
   $export['os2web_search_enviroment'] = $environment;
