@@ -29,7 +29,7 @@ projects[strongarm][version] = "2.0"
 # projects[ctools][version] = "1.3"
 
 projects[apachesolr][subdir] = "contrib"
-projects[apachesolr][version] = "1.1"
+projects[apachesolr][version] = "1.0-beta19"
 
 projects[facetapi][subdir] = "contrib"
 projects[facetapi][version] = "1.3"
